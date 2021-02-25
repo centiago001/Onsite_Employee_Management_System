@@ -31,10 +31,10 @@ while 1==1:
         g=j+g
         if j1<j:
             j1=j
-            hn=a
+            hn=x
             hs=j1
-            hd=c
-            hw=b
+            hd=z
+            hw=y
         i=i+1
         y=input("enroll a next worker y/n:")
         if y=='n':
