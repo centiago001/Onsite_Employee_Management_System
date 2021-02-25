@@ -1,8 +1,8 @@
 class worker:
-    def __init__(self,n,w,d):
-        self.n=n
-        self.w=w
-        self.d=d
+    def __init__(self,x,y,z):
+        self.n=x
+        self.w=y
+        self.d=z
 
     def show(self):
         print("name:",self.n)
@@ -19,11 +19,11 @@ i=0
 g=0
 lst=list()
 while 1==1:
-        a=input("enter a name of worker:")
-        b=int(input("what wages you give to the worker:"))
-        c=int(input("how many days worker where work:"))
+        x=input("enter a name of worker:")
+        y=int(input("what wages you give to the worker:"))
+        z=int(input("how many days worker where work:"))
         print('-'*80)
-        h=worker(a,b,c)
+        h=worker(x,y,z)
         lst.append(h)
         h.show()
         j1=0
@@ -91,5 +91,3 @@ while 1==1:
             break
 print(lst)
 print(lst[0].show())
-
-
